@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Login system</title>
+</head>
+
+<body>
+    <main id="container">
+        <div id="home">
+            <h2 id="tittle">Login System</h2>
+            <hr>
+            <p>Sistema de login utilizando middleware Express session com JSON</p>
+            <input type="button" name="btn-test" class="btn test" value="TEST">
+        </div>
+    </main>
+    <div class="md-overlay md-show">
+        <div class="md">
+            <span class="close">x</span>
+            <div class="md-content">
+                <h2>Login</h2>
+                <form action="post">
+                    <input type="text" name="user" class="input user" placeholder="Usuário" autocomplete="off">
+                    <input type="password" name="password" class="input password" placeholder="Senha" autocomplete="off">
+                    <small>Não possui conta? <a href="#"> Registre-se </a></small>
+                    <input type="button" name="login" class="btn login" value="Login">
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p> Desenvolvido por Fábio Matsumoto</p>
+    </footer>
+</body>
+<script src="./scripts.js"></script>
+
+</html>
