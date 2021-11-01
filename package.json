@@ -1,0 +1,25 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "A simple register &amp; login system using NodeJS.",
+  "main": "scr/scripts/index.js",
+  "dependencies": {
+    "nodemon": "^2.0.14",
+    "sass": "^1.43.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon scr/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hitmain13/login-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hitmain13/login-system/issues"
+  },
+  "homepage": "https://github.com/hitmain13/login-system#readme"
+}
